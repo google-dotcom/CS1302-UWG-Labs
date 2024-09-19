@@ -1,8 +1,16 @@
 package edu.westga.cs1302.bill.model;
 
+/**
+ * Calculates parts of your bill.
+ * 
+ * @author CS 1302
+ * @version Fall 2024
+ */
 public class BillCalculator {
 	/**
 	 * Return the subtotal for the bill
+	 * 
+	 * @param items array of items
 	 * 
 	 * @return the subtotal for the bill
 	 */
@@ -19,6 +27,7 @@ public class BillCalculator {
 	/**
 	 * Return the tax for the bill
 	 * 
+	 * @param items array of items
 	 * @return the tax for the bill
 	 */
 	public static double getTax(BillItem[] items) {
@@ -28,6 +37,7 @@ public class BillCalculator {
 	/**
 	 * Return the tip for the bill
 	 * 
+	 * @param items array of items
 	 * @return the tip for the bill
 	 */
 	public static double getTip(BillItem[] items) {
@@ -37,6 +47,7 @@ public class BillCalculator {
 	/**
 	 * Return the total for the bill
 	 * 
+	 * @param items array of items
 	 * @return the total for the bill
 	 */
 	public static double getTotal(BillItem[] items) {
